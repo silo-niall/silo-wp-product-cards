@@ -2,7 +2,7 @@
 /**
  * Plugin Name: SILO Product Cards
  * Description: Dynamic product cards for blog monetisation. Supports manual entry, page scraping, and Magento 2 API integration. Fully self-contained — no ACF required.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Niall Cullen — SILO Digital
  * Author URI: https://silodigital.co.uk
  * Text Domain: silo-product-cards
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-define( 'SILO_PC_VERSION', '1.0.0' );
+define( 'SILO_PC_VERSION', '1.0.1' );
 define( 'SILO_PC_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SILO_PC_URL', plugin_dir_url( __FILE__ ) );
 
