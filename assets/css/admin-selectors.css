@@ -1,0 +1,70 @@
+/**
+ * SILO Product Cards — Admin selector table styles.
+ */
+
+.silo-pc-selectors-table {
+    margin-bottom: 1rem;
+}
+
+.silo-pc-selectors-table th,
+.silo-pc-selectors-table td {
+    padding: 8px 6px;
+    vertical-align: middle;
+}
+
+.silo-pc-selectors-table thead th {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #50575e;
+}
+
+.silo-pc-col-handle {
+    width: 30px;
+    cursor: grab;
+    text-align: center;
+    color: #999;
+}
+
+.silo-pc-col-handle:active {
+    cursor: grabbing;
+}
+
+.silo-pc-selector-row select {
+    min-width: 100px;
+}
+
+.silo-pc-selector-input {
+    width: 100% !important;
+    min-width: 200px;
+    font-family: monospace;
+    font-size: 12px !important;
+}
+
+.silo-pc-attr-input {
+    width: 140px;
+    font-family: monospace;
+    font-size: 12px !important;
+}
+
+.silo-pc-remove-row {
+    color: #b32d2e !important;
+    border-color: #b32d2e !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+    padding: 2px 8px !important;
+}
+
+.silo-pc-remove-row:hover {
+    background: #b32d2e !important;
+    color: #fff !important;
+}
+
+.silo-pc-dragging {
+    opacity: 0.5;
+    background: #f0f6fc;
+}
+
+#silo-pc-selectors-wrap .button {
+    margin-right: 8px;
+}
